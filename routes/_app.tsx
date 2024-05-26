@@ -20,7 +20,7 @@ export default function App({ Component }: PageProps) {
         <meta name="twitter:title" content="FmWay" />
         <meta name="twitter:description" content="Way to Future Moments (FmWay)" />
         <meta name="twitter:image" content="/images/artoo-small.png" />
-        <title>FmWay</title>
+        <title>Halaman ekpresi luisadha</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body>
