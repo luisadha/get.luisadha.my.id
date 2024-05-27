@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-func selectBranch(patchName, input string) string {
-	if patchName == "patch-1" {
+func selectBranch(branchName, input string) string {
+	if branchName == "patch-1" {
 		
 		if strings.Contains(input, "fmway.me") {
 			return strings.ReplaceAll(input, "fmway.me", "luisadha.my.id")
@@ -21,9 +21,9 @@ func selectBranch(patchName, input string) string {
 
 func main() {
 
-	patchName := "patch-1"
+	branchName := "patch-1"
 	initialValue := "fmway.me"
-	newValue := selectBranch(patchName, initialValue)
+	newValue := selectBranch(branchName, initialValue)
 	fmt.Println(newValue)
 
 
