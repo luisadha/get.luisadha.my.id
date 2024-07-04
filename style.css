@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  background: rgb(232, 229, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  width: 90px;
+  height: 85px;
+  position: relative;
+  animation: loader 2s 0.3s infinite;
+}
+.loader-dot {
+  width: 40px;
+  height: 40px;
+  background: rgb(185, 70, 70);
+  border-radius: 50%;
+}
+.loader-dot:nth-child(1) {
+  position: absolute;
+  top: 0%;
+  left: 30%;
+}
+.loader-dot:nth-child(2) {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+.loader-dot:nth-child(3) {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+@keyframes loader {
+  0% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(1.5);
+  }
+  66% {
+    transform: scale(1);
+  }
+  100% {
+    rotate: 120deg;
+  }
+}
