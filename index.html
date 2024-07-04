@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Luisadha Homepage</title>
     <meta charset="UTF-8" />
@@ -19,26 +19,10 @@
     <meta name="twitter:title" content="luisadha">
     <meta name="twitter:description" content="Way to Future Moments (luisadha)">
     <meta name="twitter:image" content="/images/artoo-small.png">
-
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      html, body { height: 100% }
-      body > .smile {
-        font-size: 20vw;
-        height: 100%;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-    </style>
+ <link href="style.css" rel="stylesheet" />
+    
   </head>
   <body>
-    <div class="smile">
      <script>
 
 const link = "https://gist.githubusercontent.com/luisadha/ef8a0c1d2e49fbac33d421c24951e2fc/raw/862148406a59fc17a49036a25fb5b7db65a30d8e/live-bashrc";
@@ -49,7 +33,10 @@ setTimeout(function() {
   }, 3000);
 
      </script>
-  <p>😊</p>
-    </div>
+  <section class="loader">
+      <div class="loader-dot"></div>
+      <div class="loader-dot"></div>
+      <div class="loader-dot"></div>
+    </section>
   </body>
 </html>
