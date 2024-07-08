@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 # By Luisadha x fmway
+set -eu
 
 PREFIX="/data/data/com.termux/files/usr"
 TERMUX_BIN="${PREFIX}/bin"
