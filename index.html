@@ -4,7 +4,7 @@
 #        footer { font-size: 0.65rem; }
 #        a { color: inherit; text-decoration: none; }
 #        pre, code { border-radius: 4px; font-size: 1.1rem; color: #F0F0F0 !important; background: rgb(11 12 14) !important; }
-#        .github-fork-ribbon:before { background-color: rgb(11 12 14); }</style></head><body><a class="github-fork-ribbon" href="https://github.com/luisadha/alrc-termux" data-ribbon="Contribute on GitHub" title="Contribute on GitHub">Contribute on GitHub</a> <h2>
+#        .github-fork-ribbon:before { background-color: rgb(11 12 14); }</style></head><body>: alrc(1) installer<a class="github-fork-ribbon" href="https://github.com/luisadha/alrc-termux" data-ribbon="Contribute on GitHub" title="Contribute on GitHub">Contribute on GitHub</a> <h2>
 
 ## get.luisadha.my.id</h2><span>Use this self-hosted script to install your alrc-termux framework.</span><h3>
 ### <a name="usage" href="#usage">USAGE</a></h2><pre><code code="shell">curl -Lo- https://get.luisadha.my.id/alrc.sh | bash</code></pre><h3>
