@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect jika URL mengarah ke /brandomusic
+RewriteRule ^brandomusic$ https://raw.githubusercontent.com/luisadha/brandomusic/refs/heads/main/brandomusic [R=301,L]
